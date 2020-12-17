@@ -499,9 +499,15 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  22.20
-    #define DEFAULT_Ki   1.08
-    #define DEFAULT_Kd 114.00
+    // alu block old 
+    // #define DEFAULT_Kp  22.20
+    // #define DEFAULT_Ki   1.08
+    // #define DEFAULT_Kd 114.00
+    
+    // E3D copper new
+    #define DEFAULT_Kp  14.85
+    #define DEFAULT_Ki   0.86
+    #define DEFAULT_Kd  63.91
   #endif
 #endif // PIDTEMP
 
