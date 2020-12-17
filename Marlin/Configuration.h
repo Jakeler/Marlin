@@ -687,9 +687,15 @@
     #define DEFAULT_KI_LIST {   1.08,   1.08 }
     #define DEFAULT_KD_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_KP  22.20
-    #define DEFAULT_KI   1.08
-    #define DEFAULT_KD 114.00
+    // alu block old 
+    // #define DEFAULT_KP  22.20
+    // #define DEFAULT_KI   1.08
+    // #define DEFAULT_KD 114.00
+    
+    // E3D copper new
+    #define DEFAULT_KP  14.85
+    #define DEFAULT_KI   0.86
+    #define DEFAULT_KD  63.91
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
